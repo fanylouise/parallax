@@ -1,0 +1,71 @@
+/*Configuração Inicial*/
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+    padding: 0;
+
+}
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+
+}
+p{
+    padding: 15px;
+    margin: 15px;
+}
+/*Configuração do Parallax*/
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    opacity: 0.6;
+    background-attachment: fixed;
+    position: relative;
+
+
+}
+.caixa1{
+    background: url(imagens/img1.jpg);
+    
+}
+.caixa2{
+    background-image: url(imagens/abstract-flowers-2-1199959.jpg);
+    
+}
+.caixa3{
+    background-image: url(imagens/pexels-lisa-fotios-1083822.jpg);
+    
+}
+
+.caixa4{
+    background-image: url(imagens/pexels-cátia-matos-1072179.jpg);
+    
+}
+.titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    
+}
+.titulo span.titulok{
+    background-color: #111;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 5px;
+
+}
+
